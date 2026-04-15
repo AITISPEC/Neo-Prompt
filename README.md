@@ -3,4 +3,4 @@ Neo Prompt — это веб-интерфейс на базе Gradio для ра
 
 
 
-<img src="./Neo-Prompt.png" alt="Скриншот" width="400">
+<img src="./Neo-Prompt.png" alt="Скриншот" width="200">
