@@ -35,37 +35,41 @@ Python 3.12 или выше.
 # 🚀 Быстрый старт
 Клонируйте репозиторий:
 
-'''bash
+```bash
 git clone https://github.com/yourusername/neo-prompt.git
 cd neo-prompt
-'''
+```
 Установите зависимости:
 
-bash
+```bash
 pip install -r requirements.txt
+```
 Настройте конфигурацию (при необходимости):
 Отредактируйте config.py, указав актуальный адрес сервера LM Studio и список приоритетных моделей.
 
-python
+```python
 BASE_API_URL = "http://192.168.0.98:1234"
 MODEL_PRIORITY = [
     {"key": "qwen/qwen3-vl-4b", "name": "QWEN"},
     # ...
 ]
+```
+
 Запустите приложение:
 
-bash
+```bash
 python Neo-Prompt.py
+```
 Откройте браузер и перейдите по адресу http://127.0.0.1:7860.
 
 # 🧩 Структура проекта
 Файл	Назначение
-Neo-Prompt.py	Главный файл приложения с интерфейсом Gradio.
-config.py	Настройки: адрес API, приоритет моделей, размер контекста.
-neo_client.py	Клиент для взаимодействия с LM Studio API, стриминг, статистика.
+Neo-Prompt.py   	Главный файл приложения с интерфейсом Gradio.
+config.py	        Настройки: адрес API, приоритет моделей, размер контекста.
+neo_client.py	    Клиент для взаимодействия с LM Studio API, стриминг, статистика.
 model_manager.py	Управление цепочкой пресетов, состоянием шагов, режимами.
-presets.py	Загрузка пресетов из файловой системы LM Studio.
-formatters.py	Форматирование отображения reasoning и ответов.
+presets.py         	Загрузка пресетов из файловой системы LM Studio.
+formatters.py   	Форматирование отображения reasoning и ответов.
 ui_components.py	CSS-стили для красивого отображения в Gradio.
 requirements.txt	Список Python‑зависимостей.
 
