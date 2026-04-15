@@ -102,4 +102,4 @@ requirements.txt	Список Python‑зависимостей.
 ## 🤝 Вклад
 Приветствуются сообщения об ошибках, предложения по улучшению и пул-реквесты. Для серьёзных изменений сначала создайте issue для обсуждения.
 
-[![Latest Release](https://img.shields.io/github/v/release/AITISPEC/Mike-Assistant?label=latest%20release)](https://github.com/AITISPEC/Mike-Assistant/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/AITISPEC/Neo-Prompt?label=latest%20release)](https://github.com/AITISPEC/Neo-Prompt/releases/latest)
