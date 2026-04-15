@@ -1,4 +1,5 @@
 # Neo Prompt
+## Сделайте работу с LM Studio удобной и продуктивной! 🚀
 Neo Prompt — это веб-интерфейс на базе Gradio для работы с локальным сервером LM Studio. Он позволяет выстраивать цепочки из до 5 пресетов (промптов) и обрабатывать запросы последовательно.
 
 <img src="./Neo-Prompt.png" alt="Скриншот" width="200">
@@ -102,7 +103,5 @@ requirements.txt	Список Python‑зависимостей.
 
 ## 🤝 Вклад
 Приветствуются сообщения об ошибках, предложения по улучшению и пул-реквесты. Для серьёзных изменений сначала создайте issue для обсуждения.
-
-# Neo Prompt — сделайте работу с LM Studio удобной и продуктивной! 🚀
 
 [![Latest Release](https://img.shields.io/github/v/release/AITISPEC/Mike-Assistant?label=latest%20release)](https://github.com/AITISPEC/Mike-Assistant/releases/latest)
