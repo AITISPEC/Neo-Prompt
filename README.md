@@ -36,7 +36,7 @@ Python 3.12 или выше.
 Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/neo-prompt.git
+git clone https://github.com/AITISPEC/neo-prompt.git
 cd neo-prompt
 ```
 Установите зависимости:
