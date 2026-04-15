@@ -104,3 +104,5 @@ requirements.txt	Список Python‑зависимостей.
 Приветствуются сообщения об ошибках, предложения по улучшению и пул-реквесты. Для серьёзных изменений сначала создайте issue для обсуждения.
 
 # Neo Prompt — сделайте работу с LM Studio удобной и продуктивной! 🚀
+
+[![Latest Release](https://img.shields.io/github/v/release/AITISPEC/Mike-Assistant?label=latest%20release)](https://github.com/AITISPEC/Mike-Assistant/releases/latest)
