@@ -37,7 +37,8 @@ Python 3.12 или выше.
 
 '''bash
 git clone https://github.com/yourusername/neo-prompt.git
-cd neo-prompt'''
+cd neo-prompt
+'''
 Установите зависимости:
 
 bash
