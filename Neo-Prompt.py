@@ -1,9 +1,9 @@
 try:
 	import gradio as gr
 	from pro import (
-		ModelManager, load_presets_from_files,
-		STYLES, COPY_BUTTON_JS, COPY_BUTTON_HTML,
-		format_response_display
+		ModelManager,
+		load_presets_from_files,
+		STYLES
 	)
 except KeyboardInterrupt:
 	print("\n🛑 Скрипт остановлен пользователем (Ctrl+C)")
