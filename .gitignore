@@ -1,0 +1,79 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# Файлы Python
+*.pyc
+*.pyo
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+man/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Файлы IDE
+.vscode/
+.idea/
+*.sublime-*
+*.user
+*.userprefs
+
+# Gradio временные файлы
+gradio_cached_examples/
+gradio_cached_resources/
+
+# Конфигурационные файлы с локальными настройками
+pro/config_local.py
+*.local.py
+
+# Файлы статистики и данных
+*.db
+*.sqlite
+*.sqlite3
+*.json
+!preset.json
+*.pickle
+
+# Файлы OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Автосохранение
+*.autosave
+
+# Тестовые папки
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Документация
+site/
+
+# Секреты (если будут)
+.env
+.secrets
+
+# Результаты работы
+output/
+temp/
