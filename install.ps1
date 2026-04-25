@@ -226,8 +226,11 @@ if (Test-Path ".\pro\config.py") {
 # Final
 Write-Host "`n=== Installation Successful ===" -ForegroundColor Green
 Write-Host "  Virtual environment: $venvPath" -ForegroundColor Cyan
-Write-Host "  To activate manually: .\$env_name\Scripts\Activate.ps1" -ForegroundColor Gray
+Write-Host "    To activate manually: $env_name\Scripts\Activate.ps1" -ForegroundColor Gray
 Write-Host "  Run the app:" -ForegroundColor Yellow
 Write-Host "    python Neo-Prompt.py" -ForegroundColor White
-Write-Host "  Then open http://127.0.0.1:7860" -ForegroundColor Gray
+Write-Host "  or" -ForegroundColor Yellow
+Write-Host "    run.bat" -ForegroundColor White
+Write-Host "  and" -ForegroundColor Yellow
+Write-Host "    Then open http://127.0.0.1:7860" -ForegroundColor Gray
 Write-Host "`n=== Done ===" -ForegroundColor Magenta
